@@ -31,10 +31,17 @@ This project automates the testing of a mobile calculator application using Appi
 - Appium
 - Gradle (Build tool)
 - Allure (Reporting tool)
-
+- Appium Inspector
+- Android Studio
+- IntelIJ Idea
 ## How to run?
 - clone this project
-- Give following command:
+- Open command prompt and give following command
+ ``` appium ```
+- Open android studio and start emulator
+- Open appium inspector and start session using saved capabilities
+- Open the project in IntelIJ Idea
+- Give following command in IntelIJ terminal:
 ``` gradle clean test ```
 
 ## Output 
